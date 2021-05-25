@@ -1,146 +1,150 @@
-*{
+* {
   box-sizing: border-box;
 }
 /* atribute generale pentru partea de body */
-body{
-  margin:0px;
+body {
+  margin: 0px;
   padding: 0px;
-  font-family: 'Sansita Swashed', cursive;
-  background-image: url('https://images.unsplash.com/photo-1543351611-58f69d7c1781?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80');
+  font-family: "Sansita Swashed", cursive;
+  background-image: url("https://images.unsplash.com/photo-1543351611-58f69d7c1781?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
   background-size: cover;
 }
 /* atribute pentru partea de header a blogului */
-header{
+header {
   display: flex;
   flex-flow: row nowrap;
   background-color: white;
 }
-header img{
+header img {
   width: 140px;
 }
-header .logo{
+header .logo {
   display: flex;
   width: 82%;
   align-items: center;
 }
-header img{
+header img {
   padding-right: 5px;
 }
-header h1{
-  color: rgba(22,94,41);
+header h1 {
+  color: rgba(22, 94, 41);
 }
-header p{
-  color: rgba(22,94,41);
+header p {
+  color: rgba(22, 94, 41);
 }
 
 /* atribute pentru partea de meniu de navigare */
-nav ul{
+nav ul {
   margin: 0px;
   padding: 0px;
-  display:flex;
+  display: flex;
   list-style-type: none;
   justify-content: space-around;
 }
-nav a{
+nav a {
   text-decoration: none;
-  color:rgba(22,94,41);
+  color: rgba(22, 94, 41);
   font-size: 1.3rem;
 }
-nav li{
+nav li {
   padding: 0.5rem;
   width: 20%;
   cursor: pointer;
   text-align: center;
 }
-nav li:hover{
-  background-color:rgba(255,167,167);
+nav li:hover {
+  background-color: rgba(255, 167, 167);
 }
 
-
 /* atribute pentru main */
-.box{
-  float:left;
+.box {
+  float: left;
   width: 150px;
   height: 150px;
   margin-right: 30px;
-  background-image:url('https://upload.wikimedia.org/wikipedia/ro/3/37/Logo_Casa_Liga_I.png') ;
+  background-image: url("https://upload.wikimedia.org/wikipedia/ro/3/37/Logo_Casa_Liga_I.png");
   background-repeat: no-repeat;
 }
-main{
+main {
   margin: 5% 10%;
   padding: 5% 10%;
-  background-color:rgba(22,94,41);
+  background-color: rgba(22, 94, 41);
 }
-.articol{
+.articol {
   padding: 10px;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.25));
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.25)
+  );
 }
-.titlu_articol{
+.titlu_articol {
   color: white;
 }
-#distantare{
+#distantare {
   clear: both;
 }
-.aside{
+.aside {
   float: right;
   width: 10%;
 }
-.subsol_articol{
+.subsol_articol {
   color: white;
   border-top: 2px solid white;
 }
 /* atribute pentru partea de subsol a blogului */
-footer{
+footer {
   display: grid;
   padding: 10px 10px;
   background-color: black;
 }
-footer p{
+footer p {
   text-align: center;
   color: white;
 }
-main p{
-  color: rgba(206,164,164);
+main p {
+  color: rgba(206, 164, 164);
 }
-.subsol_articol{
-  text-align:center;
+.subsol_articol {
+  text-align: center;
 }
-main form{
+main form {
   display: table;
   margin: 0 auto;
 }
-main h2{
+main h2 {
   text-align: center;
 }
-main .paragraf_formular{
+main .paragraf_formular {
   color: black;
 }
-form label{
+form label {
   margin-right: 10px;
 }
-form input{
+form input {
   width: auto;
 }
-form label, form input {
+form label,
+form input {
   display: table;
 }
-.container{
-  background-color: rgba(203,193,193);
+.container {
+  background-color: rgba(203, 193, 193);
 }
-footer{
+footer {
   display: flex;
   justify-content: space-around;
   padding: 20px 20px;
-  background-color: rgb(203,193,193);
+  background-color: rgb(203, 193, 193);
 }
-footer a{
+footer a {
   text-decoration: none;
   font-size: 20px;
   color: blue;
 }
-footer p{
+footer p {
   color: black;
 }
-main article .subsol_articol{
+main article .subsol_articol {
   color: black;
 }
